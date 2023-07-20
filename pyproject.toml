@@ -4,11 +4,11 @@ version = "0.1.0"
 description = ""
 authors = ["Suchintan Singh <suchintansingh@gmail.com>"]
 readme = "README.md"
-packages = [{include = "serverless_model"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 banana-dev = "^5.0.2"
+banana-cli = "^0.0.14"
 
 
 [build-system]
